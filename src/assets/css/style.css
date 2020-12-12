@@ -1,0 +1,314 @@
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+.userEmail{
+  margin-right: 30px;
+  font-weight: 600;
+}
+.logo{
+  height: 64px;
+  margin-top: -20px;
+  width: 250px;
+}
+.bgcol{
+  display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: black;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.customCard{
+  width: 150px;
+  height: 200px;
+  border-radius: 15px;
+  background-color: rgb(87,152,235);
+  margin: 10px;
+}
+.cardImg{
+  height: 150px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.cardName{
+  text-align: center;
+  padding-top: 10px;
+  color: #fff;
+}
+
+
+/* Customize the label (the container) */
+.container1 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-bottom: 0px;
+}
+
+/* Hide the browser's default checkbox */
+.container1 input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 30px;
+  width: 30px;
+  background-color:transparent;
+  border-top-right-radius: 15px
+
+}
+
+/* On mouse-over, add a grey background color */
+.container1:input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container1 input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container1 input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container1 .checkmark:after {
+  left: 12px;
+  top: 5px;
+  width: 9px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.customCard label{
+  cursor: pointer;
+}
+.custommodal .close i {
+  color: #fff;
+  font-size: 20px;
+}
+.custommodalbodytwo {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 34px;
+}
+.custommodal .modal-footer .btn {
+  min-width: 90px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.btn-cancel {
+  background: #dde0e3;
+  color: #585868;
+  font-weight: 600;
+}
+.btn-filled {
+  background: #112de0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.bg-color{
+  background-color: black
+}
+.groupImg{
+  height: 120px;
+  border-radius: 10px;
+  width: 125px;
+}
+input:focus, .btn:focus, .btn:active{
+  outline: none;
+}
+input{
+  border: 1px solid rgb(41,44,46);
+  border-radius: 100px;
+  background-color: transparent;
+  color: rgb(140,142,144);
+  height: 40px;
+  text-align: center;
+}
+.titleColor{
+  color: rgb(164,166,167);
+}
+.container .text-center{
+  font-weight: 400;
+  font-family: Serif;
+  color: rgb(164,166,167);
+  letter-spacing: 0.7px;
+  font-size: 24px;
+}
+.file{
+  width: 125px;
+  border-style: none;
+  display: none;
+}
+.displayGrid{
+  display: grid;
+}
+.modalTitle{
+  font-weight: 400;
+  font-family: Serif;
+  color: rgb(164,166,167);
+  letter-spacing: 0.7px;
+}
+.scroll{
+  height: 300px;
+  overflow-y: auto;
+}
+.btn-secondary1{
+  display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: rgb(0, 116, 186);
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-primary1{
+  display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: rgb(223, 24, 24);
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+  outline: none;
+}
+.displayGrid label{
+  cursor: pointer;
+}
+.btn-primary1:hover{
+  background-color: rgb(189, 8, 8);
+}
+.btn-secondary1:hover{
+  background-color: rgb(35, 118, 226);
+}
+.group{
+  border: 1px solid rgb(41,44,46);
+  border-radius: 10px;
+  background-color: transparent;
+  color: rgb(140,142,144);
+  padding: 15px;
+}
+.nameDesc{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.groupsImg{
+  height: 108px;
+  width: 100px;
+  border-radius: 2px;
+}
+button:disabled,
+button[disabled]{
+  cursor: not-allowed;
+}
+
+button.btn-secondary1.m-2 {
+  width: 125px;
+  height: 25px;
+  padding: 0px;
+  margin-left: 0px !important;
+}
